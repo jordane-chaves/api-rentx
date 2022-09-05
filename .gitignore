@@ -1,0 +1,13 @@
+# Directories
+node_modules
+coverage
+dist
+.vscode
+tmp/*
+
+# Files
+.env
+ormconfig.json
+
+# Only includes the tmp/ directory
+!tmp/.gitkeep
