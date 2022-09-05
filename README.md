@@ -48,7 +48,6 @@ cd api-rentx
 
 # Instale as dependências
 yarn install
-# ou instale com o npm install
 
 # Crie uma cópia do arquivo `.env.example` renomeando para `.env`
 cp .env.example .env
@@ -67,7 +66,8 @@ docker-compose up -d database
 
 # Execute o projeto
 yarn dev
-# ou execute com npm run dev
+
+# O servidor irá executar por padrão em http://localhost:3333
 ```
 
 ## Autor
